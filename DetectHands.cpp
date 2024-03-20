@@ -34,7 +34,7 @@ int main() {
             if ((double)(count) / lineArea > threshold) cout << line << ',';
                 
         }
-        cout << endl;
+        cout << "-1" << endl;
         imshow("hue", hue);
         int key = waitKey(1);
         if (key == 27) { //escが押されたら終了
