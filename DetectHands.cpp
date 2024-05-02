@@ -9,6 +9,7 @@ int starty = 280;
 int endx = 640;
 int endy = 480;
 int main() {
+    _putenv("OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS=0");
     VideoCapture cap(0);//640x480を想定
     Mat frame;
     int linesWidth = endx - startx;
