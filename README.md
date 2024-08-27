@@ -1,0 +1,2 @@
+リポジトリのpyディレクトリ以下のmain.pyがpython版の実行ファイルです pyinstallerで.exeにまとめてDetectHands.exeにファイル名を変えてOtoge.exeと同じ階層に置けば使えます
+C++版も.exeにまとめた後と同様です
